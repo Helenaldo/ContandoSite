@@ -3,9 +3,9 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="widget">
-                    <a href="index.html"><img alt="" class="logo" src="/assets/images/logo-1.png"></a>
+                    <a href="index.html"><img alt="Contando" style="max-width: 100px;" src="/assets/images/logo-contando.png" /></a>
                     <div class="spacer-20"></div>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.</p>
+                    <p>Focado em funcionalidades para agilizar o dia a dia do escritório de contabilidade como buscador de nota fiscal, gestão de tarefas, gestão de processos, controle de cnd's e muito mais.</p>
                 </div>
             </div>
 
@@ -44,22 +44,22 @@
                 <div class="widget">
                     <h5>Newsletter</h5>
 
-                    <p>Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
+                    <p>Inscreva-se em nosso boletim informativo para receber as últimas notícias, atualizações e ofertas especiais.</p>
                     <form action="blank.php" class="row" id="form_subscribe" method="post" name="form_subscribe">
                         <div class="col text-center">
-                            <input class="form-control" id="name_1" name="name_1" placeholder="enter your email" type="text" /> <a href="#" id="btn-submit"><i class="arrow_right"></i></a>
+                            <input class="form-control" id="name_1" name="name_1" placeholder="seu e-mail" type="text" /> <a href="#" id="btn-submit"><i class="arrow_right"></i></a>
                             <div class="clearfix"></div>
                         </div>
                     </form>
                     <div class="spacer-10"></div>
-                    <small>Your email is safe with us. We don't spam.</small>
+                    <small>Seu e-mail está seguro com a gente. Não enviamos spam.</small>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-6 sm-text-center mb-sm-30">
-                <div class="mt10">&copy; Copyright 2023 - Bluetec by Designesia</div>
+                <div class="mt10">&copy; Copyright 2024 - Contando | Automação Contábil</div>
             </div>
 
             <div class="col-md-6 text-md-right text-sm-left">

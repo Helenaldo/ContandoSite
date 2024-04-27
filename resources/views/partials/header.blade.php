@@ -7,8 +7,8 @@
                                     <!-- logo begin -->
                                     <!-- logo begin -->
                                     <div id="logo">
-                                        <a href="#">
-											<img alt="" src="/assets/images/logo-1.png" />
+                                        <a href="/">
+											<img alt="Contando" style="max-width: 120px;" src="/assets/images/logo-contando.png" />
 										</a>
                                     </div>
                                     <!-- logo close -->

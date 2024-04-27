@@ -13,8 +13,8 @@
                         <div class="col-md-8 offset-md-2">
                             <form action='blank.php' class="row" id='form_subscribe' method="post" name="myForm">
                         <div class="col-md-12 text-center">
-                            <h1>Register</h1>
-                            <p>Awsome Page Teaser Here</p>
+                            <h1>Cadastro</h1>
+                            <p>Quero usar o Contando agora mesmo...</p>
                         </div>
                         <div class="clearfix"></div>
                     </form>
@@ -26,12 +26,10 @@
     <!-- section close -->
 
 
-    <section class="no-top" data-bgimage="url(images/background/3.png) top">
+    <section class="no-top" data-bgimage="url(/assets/images/background/3.png) top">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h3>Don't have an account? Register now.</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                     <div class="spacer-10"></div>
 
@@ -41,43 +39,88 @@
 
                             <div class="col-md-6">
                                 <div class="field-set">
-                                    <label>Name:</label>
-                                    <input type='text' name='name' id='name' class="form-control">
+                                    <label>Tipo de Identificação*</label>
+                                    <select class="form-control" name="tipo_identificacao" required >
+                                      <option value="">Selecione...</option>
+                                      <option value="CNPJ">Pessoa Física</option>
+                                      <option value="CPF">Pessoa Jurídica</option>
+                                    </select>
+
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="field-set">
-                                    <label>Email Address:</label>
-                                    <input type='text' name='email' id='email' class="form-control">
+                                    <label>CNPJ ou CPF*</label>
+                                    <input type='text' name='cnpj_cpf' id='cnpj_cpf' class="form-control" required>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="field-set">
-                                    <label>Choose a Username:</label>
-                                    <input type='text' name='username' id='username' class="form-control">
+                                    <label>Nome/Nome Empresarial*</label>
+                                    <input type='text' name='nome' id='nome' class="form-control" required>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="field-set">
-                                    <label>Phone:</label>
-                                    <input type='text' name='phone' id='phone' class="form-control">
+                                    <label>E-mail*</label>
+                                    <input type='text' name='email' id='email' class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="field-set">
+                                    <label>CEP*</label>
+                                    <input type='text' name='cep' id='cep' class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="field-set">
+                                    <label>Logradouro*</label>
+                                    <input type='text' name='logradouro' id='logradouro' class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="field-set">
+                                    <label>Número*</label>
+                                    <input type='text' name='numero' id='numero' class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="field-set">
+                                    <label>Bairro*</label>
+                                    <input type='text' name='bairro' id='bairro' class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="field-set">
+                                    <label>Complemento</label>
+                                    <input type='text' name='complemento' id='complemento' class="form-control">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="field-set">
-                                    <label>Password:</label>
-                                    <input type='text' name='password' id='password' class="form-control">
+                                    <label>Telefone*</label>
+                                    <input type='text' name='telefone' id='telefone' class="form-control" required>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="field-set">
-                                    <label>Re-enter Password:</label>
-                                    <input type='text' name='re-password' id='re-password' class="form-control">
+                                    <label>Cidade*</label>
+                                    <select class="form-control" name="cidade" required >
+                                      <option value="">Selecione...</option>
+                                      <option value="Teresina-PI">Teresina-PI</option>
+                                      <option value="São Paulo-SP">São Paulo-SP</option>
+                                    </select>
+
                                 </div>
                             </div>
 
@@ -85,7 +128,7 @@
                             <div class="col-md-12">
 
                                 <div id='submit' class="pull-left">
-                                    <input type='submit' id='send_message' value='Register Now' class="btn btn-custom color-2">
+                                    <input type='submit' id='send_message' value='Cadastrar' class="btn btn-custom color-2">
                                 </div>
 
                                 <div id='mail_success' class='success'>Your message has been sent successfully.</div>
@@ -106,11 +149,11 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                    <h3 class="no-bottom">Awesomeness begin here. Are you ready?</h3>
+                    <h3 class="no-bottom">Veja o que o Contando pode fazer pelo seu escritório.</h3>
                 </div>
 
                 <div class="col-md-4 text-lg-right text-sm-center">
-                    <a href="#" class="btn-custom capsule med">Let's do it!</a>
+                    <a href="#" class="btn-custom capsule med">Já sou cadastrado</a>
                 </div>
             </div>
         </div>
