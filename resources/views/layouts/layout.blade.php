@@ -2,7 +2,7 @@
 <html lang="pt_br">
     <head>
         <meta charset="utf-8" />
-        <title>Bluetec Saas Software Startup Website Template</title>
+        <title>Contando | @yield( 'title' )</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta content="Bluetec Saas Software Startup Website Template" name="description" />
         <meta content="" name="keywords" />
@@ -29,6 +29,7 @@
         <link id="colors" href="/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
         <link href="/assets/css/coloring.css" rel="stylesheet" type="text/css" />
 
+        @yield('css')
 
     </head>
 
@@ -77,6 +78,9 @@
         <script src="/assets/js/jquery.countTo.js"></script>
         <script src="/assets/js/jquery.countdown.js"></script>
         <script src="/assets/js/designesia.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+        @yield('js')
 
 
     </body>
