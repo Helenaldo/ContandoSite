@@ -41,6 +41,7 @@
 
             <!-- content begin -->
                 @yield('content')
+
             <!-- content close -->
 
             <!-- footer begin -->

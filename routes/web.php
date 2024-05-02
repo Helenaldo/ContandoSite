@@ -10,3 +10,5 @@ Route::get('/', function () {
 Route::get('/register', [RegisterController::class, 'create'])->name('register');
 
 Route::post('/register', [RegisterController::class, 'store'])->name('register.action');
+
+Route::get('/welcome', [RegisterController::class, 'welcome'])->name('welcome');

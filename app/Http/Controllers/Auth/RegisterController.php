@@ -37,7 +37,6 @@ class RegisterController extends Controller
 
         $action = Http::acceptJson()->post(env("API_PAINEL_BASE_URL").'/tenants', $data)->json();
 
-        // print_r($action['errors']);
 
         if(isset($action['errors'])) {
             return view('register', [
@@ -45,7 +44,11 @@ class RegisterController extends Controller
                 'cidades' => $cidades
             ]);
         }
-        return redirect(route('home'));
+        return redirect(route('welcome'));
+    }
+
+    public function welcome() {
+        return view('welcome');
     }
 }
 
