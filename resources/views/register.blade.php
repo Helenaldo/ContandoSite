@@ -32,7 +32,7 @@
                 <div class="col-md-8 offset-md-2">
 
                     <div class="spacer-10"></div>
-                    {{-- <form name="contactForm" id='contact_form' class="form-border" method="post" action='{{ route('register.action')}}'> --}}
+
                     <form class="form-border" method="post" action='{{ route('register.action')}}'>
                         @csrf
                         <div class="row">
