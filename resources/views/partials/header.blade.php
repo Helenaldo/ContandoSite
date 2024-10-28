@@ -18,26 +18,26 @@
                                     <!-- mainmenu begin -->
                                     <ul id="mainmenu">
                                         <li>
-                                            <a href="#">Home</a>
-                                            <ul>
+                                            <a href="/">Home</a>
+                                            {{-- <ul>
                                                 <li><a href="index.html">Main</a></li>
                                                 <li><a href="index-startup.html">Startup</a></li>
 												<li><a href="index-coworking.html">Co-working</a></li>
 												<li><a href="index-agency.html">Agency</a></li>
 												<li><a href="index-apps.html">Apps</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li>
-                                            <a href="#">Company</a>
-                                            <ul>
+                                            <a href="{{route('contato')}}">Contato</a>
+                                            {{-- <ul>
                                                 <li><a href="about-us.html">About Us</a></li>
                                                 <li><a href="our-team.html">Our Team</a></li>
                                                 <li><a href="our-history.html">Our History</a></li>
                                                 <li><a href="faq.html">FAQs</a></li>
 												<li><a href="careers.html">Careers</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li>
+                                        {{-- <li>
                                             <a href="#">Services</a>
                                             <ul>
                                                 <li><a href="service-single.html">Service Single</a></li>
@@ -73,11 +73,11 @@
 												<li><a href="tabs.html">Timeline</a></li>
 												<li><a href="counters.html">Counters</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </div>
                                 <div class="align-self-center ml-auto header-col-right">
-                                    <a class="btn-custom" href="#"><i class="fa fa-arrow-down"></i> Buy Now</a>
+                                    <a class="btn-custom" href="{{route('register')}}"><i class="fa fa-user-plus"></i> Cadastre-se</a>
                                     <span id="menu-btn"></span>
                                 </div>
                                 <div class="clearfix"></div>

@@ -10,12 +10,12 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 wow fadeInRight" data-wow-delay=".5s">
-                    <h4>Whatever business you do</h4>
+                    <h4>O que você <span class="id-color">Contador</span> precisa?</h4>
                     <div class="spacer-10"></div>
-                    <h1>bluetec is what your <span class="id-color">business</span> need</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
+                    <h1>Sistema de controle paralegal grátis você encontra no <span class="id-color">CONTANDO</span>.</h1>
+                    <p class="lead">Saia das planilhas e tenha todos os seus processos paralegais controlados em um só lugar, <span class="id-color">grátis</span>.</p>
                     <div class="spacer-20"></div>
-                    <a class="btn-custom" href="#">Learn More</a>
+                    <a class="btn-custom" href="{{route('register')}}">Cadastre-se</a>
                     <div class="mb-sm-30"></div>
                 </div>
 
@@ -26,13 +26,14 @@
         </div>
     </section>
 
+    {{-- SESSÃO NOSSO SERVIÇOS --}}
     <section id="section-highlight" data-bgimage="url(/assets/images/background/2.png) top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="text-center">
-                        <h2><span class="uptitle id-color">Our Services</span>How does it work?</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2><span class="uptitle id-color">Serviços</span>O que fazemos?</h2>
+                        <p class="lead">O Contando Processos trata-se de uma plataforma para anotação e controle de processos paralegais para seu escritório.</p>
                         <div class="spacer-20"></div>
                     </div>
                 </div>
@@ -42,12 +43,12 @@
                 <!-- feature box begin -->
                 <div class="col-lg-4 col-md-6 mb40 wow fadeInUp" data-wow-delay="0s">
                     <div class="feature-box f-boxed style-3">
-                        <i class="bg-color i-circle fa fa-wordpress"></i>
+                        <i class="bg-color i-circle fa fa-laptop"></i>
                         <div class="text">
-                            <a href="service-single.html"><h4>Website Design</h4></a>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                            <a href="service-single.html"><h4>Design Moderno</h4></a>
+                            Sistema intutivo, responsivo e moderno, tudo com a finalidade de levar maior produtividade para o usuário.
                         </div>
-                        <i class="wm fa fa-wordpress"></i>
+                        <i class="wm fa fa-laptop"></i>
                     </div>
                 </div>
                 <!-- feature box close -->
@@ -57,8 +58,8 @@
                     <div class="feature-box f-boxed style-3">
                         <i class="bg-color-2 i-circle fa fa-paper-plane-o"></i>
                         <div class="text">
-                            <a href="service-single.html"><h4>Email Marketing</h4></a>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                            <a href="service-single.html"><h4>Notificação por e-mail</h4></a>
+                            O gestor do escritório recebe semanalmente um relatório com os principais indicadores do seu paralegal.
                         </div>
                         <i class="wm fa fa-paper-plane-o"></i>
                     </div>
@@ -70,8 +71,8 @@
                     <div class="feature-box f-boxed style-3">
                         <i class="bg-color-3 i-circle fa fa-line-chart"></i>
                         <div class="text">
-                            <a href="service-single.html"><h4>Digital Analytics</h4></a>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                            <a href="service-single.html"><h4>Analise Gráfica</h4></a>
+                            Dashboards úteis para visualização de indicadores como: quantidade de processos, processos em atraso, processos por cliente, etc.
                         </div>
                         <i class="wm i-circle fa fa-line-chart"></i>
                     </div>
@@ -79,13 +80,14 @@
                 <!-- feature box close -->
 
                 <div class="col-md-12 text-center">
-                    <a class="btn-custom" href="#">More Features</a>
+                    <a class="btn-custom" href="{{route('register')}}">Cadastre-se grátis</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="section-banner" class="no-top" data-bgimage="url(/assets/images/background/3.png) top">
+    {{-- SESSÃO SEGURANÇA --}}
+    {{-- <section id="section-banner" class="no-top" data-bgimage="url(/assets/images/background/3.png) top">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 d-none d-lg-block d-xl-block text-center wow fadeInRight" data-wow-delay="0s">
@@ -121,9 +123,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section id="section-testimonial" data-bgimage="url(/assets/images/background/2.png)  top">
+    {{-- SESSÃO TESTEMUNHOS --}}
+    {{-- <section id="section-testimonial" data-bgimage="url(/assets/images/background/2.png)  top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -200,9 +203,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section id="section-fun-facts" class="pt60 pb60 text-light bg-color-3">
+    {{-- SESSÃO NOSSOS NÚMEROS --}}
+    {{-- <section id="section-fun-facts" class="pt60 pb60 text-light bg-color-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0s">
@@ -234,7 +238,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </div>
 
 @endsection
